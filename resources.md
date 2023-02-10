@@ -1,4 +1,0 @@
-- https://numpy.org/doc/stable/user/quickstart.html
-- https://docs.scipy.org/doc/scipy/tutorial/linalg.html
-- http://scipy-lectures.org/intro/numpy/index.html
-- https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
