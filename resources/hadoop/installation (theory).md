@@ -2,7 +2,9 @@
 
 1. Download Hadoop and Java and extract the tar files
 
-2. Modify Hadoop Configuration Files
+2. Set the JAVA_HOME in the .bashrc file
+
+3. Modify Hadoop Configuration Files
 
    - core-site.xml: Give the name node address
 
@@ -14,37 +16,37 @@
 
    - Set the java path in hadoop-env.sh, mapred-env.sh, yarn-env.sh
 
-3. Generate ssh key for localhost and copy the public key to the authorized_keys file
+4. Generate ssh key for localhost and copy the public key to the authorized_keys file
 
-4. Format the name node
+5. Format the name node
 
-5. Start all hadoop related services
+6. Start all hadoop related services
 
    ```bash
    start-all.sh
    ```
 
-6. Check the browser web GUI on `http://localhost:19888`
+7. Check the browser web GUI on `http://localhost:19888`
 
-7. List the files in the HDFS
+8. List the files in the HDFS
 
    ```bash
    hadoop fs -ls /
    ```
 
-8. Create a directory in the HDFS
+9. Create a directory in the HDFS
 
    ```bash
    hadoop fs -mkdir /user
    ```
 
-9. Add a file to the HDFS
+10. Add a file to the HDFS
 
-   ```bash
-   hadoop fs -put /home/username/file.txt /user
-   ```
+    ```bash
+    hadoop fs -put /home/username/file.txt /user
+    ```
 
-10. Stop all hadoop related services
+11. Stop all hadoop related services
     ```bash
     stop-all.sh
     ```
