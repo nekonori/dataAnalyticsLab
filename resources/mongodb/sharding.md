@@ -142,7 +142,7 @@ db.cities.insertMany([
 
 ```bash
 sh.status()
-sh.getShardDistribution()
+db.cities.getShardDistribution()
 db.cities.find().explain()
 db.cities.find({"continent": "Europe"}).explain()
 db.cities.find({"country": "Japan"}).explain()
